@@ -1,0 +1,215 @@
+    1  pwd
+    2  cd
+    3  pwd
+    4  ls
+    5  man ls
+    6  cd ~murray
+    7  pwd
+    8  cd Papers
+    9  pwd
+   10  ls -la
+   11  cd ~Hopkins
+   12  cd Hopkins
+   13  cd All_Feedback
+   14  cd second_draft
+   15  pwd
+   16  ls
+   17  ls -la
+   18  evince sfh_vs_fbmodel.pdf 
+   19  history
+   20  whoami
+   21  pwd
+   22  cd ~murray
+   23  ls -la
+   24  cd Paapers
+   25  cd Papers
+   26  ls -la
+   27  cd
+   28  pwd
+   29  ls -la
+   30  history
+   31  pwd
+   32  mkdir CTA200_2020
+   33  ls -la
+   34  cd CTA200_2020/
+   35  ls -la
+   36  ls -la > list_dir
+   37  ls -la
+   38  which vi
+   39  vi list_dir
+   40  m list_dir
+   41  list_dir
+   42  ls -la
+   43  ls -la list_dir
+   44  vi test.txt
+   45  find , -name "list" -print
+   46  find . -name "list" _print
+   47  pwd
+   48  cd
+   49  pwd
+   50  module
+   51  module avail
+   52  module load gcc
+   53  gcc --version
+   54  module load python
+   55  module list
+   56  module purge
+   57  module list
+   58  module
+   59  cd ~fhorrobin
+   60  pwd
+   61  ls -la *.c
+   62  m *.c
+   63  gcc main.c
+   64  ls -la *.c
+   65  cp main.c ~
+   66  pushd ~
+   67  ls -la *.c
+   68  gcc main.c
+   69  ls a.*
+   70  a.out
+   71  ./a.out
+   72  echo $PATH
+   73  pwd
+   74  pu
+   75  pushd
+   76  ls _.py
+   77  ls *.py
+   78  module load python
+   79  python main.py
+   80  manual main.py
+   81  cd
+   82  history
+   83  cd CTA200_2020/
+   84  mkdir assignment_1
+   85  cd /mnt
+   86  ls -la
+   87  cd scratch-lustre/
+   88  ls -la
+   89  cd sudent15
+   90  cd studnet15
+   91  cd student15
+   92  pwd
+   93  mkdir CTA200_2022
+   94  pwd
+   95  cd CTA200_2022/
+   96  pwd
+   97  mkdir assignment_1
+   98  history
+   99  pw
+  100  pwd
+  101  vi README.md
+  102  ls
+  103  more README.md
+  104  pushd
+  105  cd
+  106  cd ~murray
+  107  ls -la
+  108  history
+  109  find "Hello_world"
+  110  find . "Hello_world"
+  111  find . "Hello"*.c
+  112  find . "Hello_world"*.c
+  113  pwd
+  114  find . -name "Hello_world"*.c
+  115  cd Papers/tmp
+  116  pwd
+  117  ls -la
+  118  push
+  119  history
+  120  cp Hello_world.c ~/mnt/scratch_lustre/student15/assignment_1
+  121  pwd
+  122  cd pushd
+  123  dirs
+  124  pwd
+  125  cd dirs
+  126  cd
+  127  cd dirs
+  128  cd /mnt/scratch-lustre
+  129  cd student15
+  130  ls -la
+  131  cd CTA200_2022/
+  132  mkdir assignment_1
+  133  ls -la
+  134  cd assignment_1/
+  135  ls -la
+  136  cd ..
+  137  mv READEME.md assignment.1
+  138  ls -la
+  139  mv README.md assignment.1
+  140  ls -la
+  141  cd assignmnet1
+  142  cd assignment
+  143  cd assignment.1
+  144  cd assignment_1
+  145  ls -la
+  146  rm -rf assignment.1
+  147  cd assignment_1
+  148  pwd
+  149  ls -la
+  150  vi README.md
+  151  more README.md
+  152  pwd
+  153  pushd
+  154  cd
+  155  cd ~murray/Papers
+  156  ls -la
+  157  cd tmp
+  158  ls -la
+  159  cp Hello_world.c "dirs + <1>"
+  160  dirs
+  161  dirs + <1>
+  162  popd
+  163  dirs
+  164  cp Hello_world.c dirs
+  165  pwd
+  166  cd
+  167  dir
+  168  dirs
+  169  cd ~murray/Papers/tmp
+  170  cp Hello_world.c /mnt/scratch-lustre/student15/CTA200_2022/assignment_1
+  171  cd
+  172  cd ~murray
+  173  find . -name"Hello_world"*.py
+  174  history
+  175  find . -name "Hello_world"*.py
+  176  pwd
+  177  cd tmp
+  178  ls -la
+  179  cp Hello_world.py /mnt/scratch-lustre/student15/CTA200_2022/assignment_1
+  180  cd
+  181  cd /mnt/scratch-lustre/student15/CTA200_2022/assignment_1
+  182  ls -la
+  183  mv Hello_world.c Hello_world-Kim.c
+  184  ls -la
+  185  more Hello_world-Kim.c 
+  186  mv Hello_world.py Hello_world-Kim.py
+  187  ls -la
+  188  module load gcc
+  189  history
+  190  gcc Hello_world-Kim.c
+  191  ls
+  192  a.out
+  193  ./a.out
+  194  gcc Hello_world-Kim.c -o Hello_world.x
+  195  ls
+  196  history
+  197  module load python
+  198  python Hello_world-Kim.py
+  199  vi Hello_world-Kim.c
+  200  vi Hello_world-Kim.py
+  201  python Hello_world-Kim.py
+  202  gcc Hello_world-Kim.c
+  203  gcc Hello_world-Kim..c -o Hello_world.x
+  204  gcc Hello_world-Kim.c -o Hello_world.x
+  205  ls -la
+  206  more Hello_world.x
+  207  history
+  208  ./Hello_world.x
+  209  ./Hello_world.x > output_c.txt
+  210  ls
+  211  more output_c.txt 
+  212  python Hello_world-Kim.py > output_python.txt
+  213  ls
+  214  more output_python.txt
+  215  history > history.txt
